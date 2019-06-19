@@ -3,7 +3,7 @@ open PostTypes;
 module PostsQuery = [%graphql
   {|
      query getPosts {
-      posts @bsRecord{
+      posts(order_by: {created_at: desc }) @bsRecord{
         title
         cover_img
         content
