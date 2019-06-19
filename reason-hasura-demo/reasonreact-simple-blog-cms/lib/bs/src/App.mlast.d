@@ -1,9 +1,0 @@
-src/App-ReasonreactSimpleBlogCms.cmj :
-src/components/Counter-ReasonreactSimpleBlogCms.cmj
-src/components/Counter-ReasonreactSimpleBlogCms.cmi
-src/components/Header-ReasonreactSimpleBlogCms.cmj
-src/components/Header-ReasonreactSimpleBlogCms.cmi
-src/components/Modal-ReasonreactSimpleBlogCms.cmj
-src/components/Modal-ReasonreactSimpleBlogCms.cmi
-src/components/PostsList-ReasonreactSimpleBlogCms.cmj
-src/components/PostsList-ReasonreactSimpleBlogCms.cmi
