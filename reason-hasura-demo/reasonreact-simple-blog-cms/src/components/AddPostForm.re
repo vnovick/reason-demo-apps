@@ -27,7 +27,7 @@ let make = (~closeModal) => {
         closeModal();
         mutation(
           ~variables=addNewPostMutation##variables,
-          ~refetchQueries=[|"getPosts"|],
+          // ~refetchQueries=[|"getPosts"|],
           (),
         )
         |> ignore;
