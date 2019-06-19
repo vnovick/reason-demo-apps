@@ -1,0 +1,6 @@
+- args:
+    sql: ALTER TABLE "public"."posts" ALTER COLUMN "cover_img" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: COMMENT ON COLUMN "public"."posts"."cover_img" IS ''
+  type: run_sql

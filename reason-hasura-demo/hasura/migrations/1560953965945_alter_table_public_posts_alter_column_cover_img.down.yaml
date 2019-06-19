@@ -1,0 +1,6 @@
+- args:
+    sql: ALTER TABLE ONLY "public"."posts" ALTER COLUMN "cover_img" SET DEFAULT 'https://images.unsplash.com/photo-1555397430-57791c75748a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80';
+  type: run_sql
+- args:
+    sql: COMMENT ON COLUMN "public"."posts"."cover_img" IS 'null'
+  type: run_sql

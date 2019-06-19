@@ -1,0 +1,1 @@
+let rString = ReasonReact.string
