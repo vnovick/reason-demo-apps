@@ -2,7 +2,7 @@ open PostTypes;
 
 module PostsQuery = [%graphql
   {|
-     query getPosts {
+     subscription getPosts {
       posts(order_by: {created_at: desc }) @bsRecord{
         title
         cover_img
@@ -17,12 +17,12 @@ module PostsQuery = [%graphql
   |}
 ];
 
-module GetPostsQuery = ReasonApollo.CreateQuery(PostsQuery);
+module GetPostsSubscription = ReasonApollo.CreateSubscription(PostsQuery);
 
 [@react.component]
 let make = () => {
   <div className="flex flex-wrap">
-    <GetPostsQuery>
+    <GetPostsSubscription>
       ...{({result}) =>
         switch (result) {
         | Loading => "Loading" |> ReasonReact.string
@@ -43,6 +43,6 @@ let make = () => {
           }
         }
       }
-    </GetPostsQuery>
+    </GetPostsSubscription>
   </div>;
 };
