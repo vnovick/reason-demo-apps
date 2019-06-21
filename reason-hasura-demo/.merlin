@@ -1,6 +1,6 @@
 ####{BSB GENERATED: NO EDIT
 B lib/bs
-FLG -open ReasonreactSimpleBlogCms
+FLG -open ReasonHasuraDemo
 FLG -ppx /Users/vladimirnovick/dev/reason-demo-apps/reason-hasura-demo/node_modules/graphql_ppx/ppx
 FLG -ppx '/Users/vladimirnovick/dev/reason-demo-apps/reason-hasura-demo/node_modules/bs-platform/lib/bsppx.exe -bs-jsx 3'
 S /Users/vladimirnovick/dev/reason-demo-apps/reason-hasura-demo/node_modules/bs-platform/lib/ocaml
@@ -17,6 +17,4 @@ S src
 B lib/bs/src
 S src/components
 B lib/bs/src/components
-S src/utils
-B lib/bs/src/utils
 ####BSB GENERATED: NO EDIT}

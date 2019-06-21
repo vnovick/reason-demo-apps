@@ -1,9 +1,9 @@
-src/App-ReasonreactSimpleBlogCms.cmj :
-src/components/Counter-ReasonreactSimpleBlogCms.cmj
-src/components/Counter-ReasonreactSimpleBlogCms.cmi
-src/components/Header-ReasonreactSimpleBlogCms.cmj
-src/components/Header-ReasonreactSimpleBlogCms.cmi
-src/components/Modal-ReasonreactSimpleBlogCms.cmj
-src/components/Modal-ReasonreactSimpleBlogCms.cmi
-src/components/PostsList-ReasonreactSimpleBlogCms.cmj
-src/components/PostsList-ReasonreactSimpleBlogCms.cmi
+src/App-ReasonHasuraDemo.cmj :
+src/components/Counter-ReasonHasuraDemo.cmj
+src/components/Counter-ReasonHasuraDemo.cmi
+src/components/Header-ReasonHasuraDemo.cmj
+src/components/Header-ReasonHasuraDemo.cmi
+src/components/Modal-ReasonHasuraDemo.cmj
+src/components/Modal-ReasonHasuraDemo.cmi
+src/components/PostsList-ReasonHasuraDemo.cmj
+src/components/PostsList-ReasonHasuraDemo.cmi

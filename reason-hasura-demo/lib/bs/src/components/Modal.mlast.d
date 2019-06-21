@@ -1,3 +1,3 @@
-src/components/Modal-ReasonreactSimpleBlogCms.cmj :
-src/components/AddPostForm-ReasonreactSimpleBlogCms.cmj
-src/components/AddPostForm-ReasonreactSimpleBlogCms.cmi
+src/components/Modal-ReasonHasuraDemo.cmj :
+src/components/AddPostForm-ReasonHasuraDemo.cmj
+src/components/AddPostForm-ReasonHasuraDemo.cmi

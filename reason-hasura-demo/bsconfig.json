@@ -1,5 +1,5 @@
 {
-  "name": "reasonreact-simple-blog-cms",
+  "name": "reason-hasura-demo",
   "reason": { "react-jsx": 3 },
   "bsc-flags": ["-bs-super-errors"],
   "sources": [

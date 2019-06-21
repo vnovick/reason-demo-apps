@@ -3,8 +3,6 @@
 import * as React from "react";
 import * as Js_json from "bs-platform/lib/es6/js_json.js";
 
-var avatar = require("../imgs/avatar.jpg");
-
 function Post(Props) {
   var post = Props.post;
   var match = post[/* cover_img */1];
@@ -54,8 +52,7 @@ function Post(Props) {
 var make = Post;
 
 export {
-  avatar ,
   make ,
   
 }
-/* avatar Not a pure module */
+/* react Not a pure module */

@@ -1,10 +1,7 @@
-[@bs.val] external require: string => string = "";
-let avatar = require("../imgs/avatar.jpg");
-
 open PostTypes;
 
 [@react.component]
-let make = (~post: post) => {
+let make = (~post) => {
   let backgroundStyle =
     ReactDOMRe.Style.make(
       ~backgroundImage=

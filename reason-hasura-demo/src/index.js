@@ -3,21 +3,36 @@
 import * as React from "react";
 import * as ReactDOMRe from "reason-react/src/ReactDOMRe.js";
 import * as ReactApollo from "react-apollo";
-import * as App$ReasonreactSimpleBlogCms from "./App.js";
-import * as ApolloClient$ReasonreactSimpleBlogCms from "./ApolloClient.js";
+import * as ServiceWorker from "./serviceWorker";
+import * as App$ReasonHasuraDemo from "./App.js";
+import * as ApolloClient$ReasonHasuraDemo from "./ApolloClient.js";
 
-import './App.css'
+import './index.css'
 ;
 
 import 'animate.css'
 ;
 
+function register_service_worker(prim) {
+  ServiceWorker.register();
+  return /* () */0;
+}
+
+function unregister_service_worker(prim) {
+  ServiceWorker.unregister();
+  return /* () */0;
+}
+
 ReactDOMRe.renderToElementWithId(React.createElement(ReactApollo.ApolloProvider, {
-          client: ApolloClient$ReasonreactSimpleBlogCms.makeApolloClient(/* () */0),
-          children: React.createElement(App$ReasonreactSimpleBlogCms.make, { })
+          client: ApolloClient$ReasonHasuraDemo.makeApolloClient(/* () */0),
+          children: React.createElement(App$ReasonHasuraDemo.make, { })
         }), "root");
 
+ServiceWorker.unregister();
+
 export {
+  register_service_worker ,
+  unregister_service_worker ,
   
 }
 /*  Not a pure module */

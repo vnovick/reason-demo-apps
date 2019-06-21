@@ -1,1 +1,1 @@
-src/components/PostTypes-ReasonreactSimpleBlogCms.cmj :
+src/components/PostTypes-ReasonHasuraDemo.cmj :

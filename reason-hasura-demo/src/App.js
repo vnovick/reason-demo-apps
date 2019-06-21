@@ -2,10 +2,10 @@
 
 import * as Curry from "bs-platform/lib/es6/curry.js";
 import * as React from "react";
-import * as Modal$ReasonreactSimpleBlogCms from "./components/Modal.js";
-import * as Header$ReasonreactSimpleBlogCms from "./components/Header.js";
-import * as Counter$ReasonreactSimpleBlogCms from "./components/Counter.js";
-import * as PostsList$ReasonreactSimpleBlogCms from "./components/PostsList.js";
+import * as Modal$ReasonHasuraDemo from "./components/Modal.js";
+import * as Header$ReasonHasuraDemo from "./components/Header.js";
+import * as Counter$ReasonHasuraDemo from "./components/Counter.js";
+import * as PostsList$ReasonHasuraDemo from "./components/PostsList.js";
 
 function App(Props) {
   var match = React.useReducer((function (param, action) {
@@ -22,16 +22,16 @@ function App(Props) {
               onClick: (function (param) {
                   return Curry._1(dispatch, /* Close */1);
                 })
-            }, React.createElement(Header$ReasonreactSimpleBlogCms.make, {
+            }, React.createElement(Header$ReasonHasuraDemo.make, {
                   openModal: (function (param) {
                       return Curry._1(dispatch, /* Open */0);
                     }),
                   isModalOpened: state[/* isModalOpened */0]
-                }), match$1 ? React.createElement(Modal$ReasonreactSimpleBlogCms.make, {
+                }), match$1 ? React.createElement(Modal$ReasonHasuraDemo.make, {
                     closeModal: (function (param) {
                         return Curry._1(dispatch, /* Close */1);
                       })
-                  }) : null, React.createElement(PostsList$ReasonreactSimpleBlogCms.make, { }), React.createElement(Counter$ReasonreactSimpleBlogCms.make, { }));
+                  }) : null, React.createElement(PostsList$ReasonHasuraDemo.make, { }), React.createElement(Counter$ReasonHasuraDemo.make, { }));
 }
 
 var make = App;

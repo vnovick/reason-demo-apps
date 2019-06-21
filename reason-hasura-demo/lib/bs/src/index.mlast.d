@@ -1,5 +1,5 @@
-src/index-ReasonreactSimpleBlogCms.cmj :
-src/ApolloClient-ReasonreactSimpleBlogCms.cmj
-src/ApolloClient-ReasonreactSimpleBlogCms.cmi
-src/App-ReasonreactSimpleBlogCms.cmj
-src/App-ReasonreactSimpleBlogCms.cmi
+src/index-ReasonHasuraDemo.cmj :
+src/ApolloClient-ReasonHasuraDemo.cmj
+src/ApolloClient-ReasonHasuraDemo.cmi
+src/App-ReasonHasuraDemo.cmj
+src/App-ReasonHasuraDemo.cmi

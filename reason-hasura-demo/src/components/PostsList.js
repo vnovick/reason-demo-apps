@@ -7,7 +7,7 @@ import * as Js_dict from "bs-platform/lib/es6/js_dict.js";
 import * as Js_json from "bs-platform/lib/es6/js_json.js";
 import * as Caml_option from "bs-platform/lib/es6/caml_option.js";
 import * as ReasonApollo from "reason-apollo/src/ReasonApollo.bs.js";
-import * as Post$ReasonreactSimpleBlogCms from "./Post.js";
+import * as Post$ReasonHasuraDemo from "./Post.js";
 
 var ppx_printed_query = "subscription getPosts  {\nposts(order_by: {created_at: desc})  {\ntitle  \ncover_img  \ncontent  \ncreated_at  \nuser  {\nname  \navatar_url  \n}\n\n}\n\n}\n";
 
@@ -164,7 +164,7 @@ function PostsList(Props) {
                         return $$Array.map((function (post) {
                                       return React.createElement("div", {
                                                   className: "bg-white rounded-t-lg overflow-hidden p-4 p-10 flex justify-center"
-                                                }, React.createElement(Post$ReasonreactSimpleBlogCms.make, {
+                                                }, React.createElement(Post$ReasonHasuraDemo.make, {
                                                       post: post
                                                     }));
                                     }), posts);

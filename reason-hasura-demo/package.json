@@ -18,7 +18,7 @@
     "subscriptions-transport-ws": "^0.9.16"
   },
   "scripts": {
-    "rebuild-styles": "npx tailwind build ./src/styles.css -o ./src/App.css",
+    "rebuild-styles": "npx tailwind build ./src/styles.css -o ./src/index.css",
     "re:build": "bsb -make-world -clean-world",
     "re:watch": "bsb -make-world -clean-world -w",
     "start": "react-scripts start",

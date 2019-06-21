@@ -5,9 +5,9 @@ App
 Post
 Index
 Modal
+Utils
 Header
 Counter
-Strings
 PostTypes
 PostsList
 AddPostForm
@@ -16,9 +16,9 @@ src/App,04
 src/components/Post,04
 src/index,03
 src/components/Modal,04
+src/utils,03
 src/components/Header,04
 src/components/Counter,04
-src/utils/strings,03
 src/components/PostTypes,04
 src/components/PostsList,04
 src/components/AddPostForm,04
